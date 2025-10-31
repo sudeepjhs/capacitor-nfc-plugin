@@ -1,11 +1,11 @@
-# @capacitor/nfc-plugin
+# @sudeepjhs/nfc-plugin
 
 NFC plugin for Capacitor
 
 ## Install
 
 ```bash
-npm install @capacitor/nfc-plugin
+npm install @sudeepjhs/nfc-plugin
 npx cap sync
 ```
 
