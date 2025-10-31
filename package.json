@@ -1,6 +1,9 @@
 {
-  "name": "@capacitor/nfc-plugin",
+  "name": "@sudeepjhs/nfc-plugin",
   "version": "0.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "NFC plugin for Capacitor",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

@@ -10,6 +10,6 @@
 - [x] Implement iOS native code in NFC.swift using CoreNFC
 - [x] Implement iOS native code in NFCPlugin.swift for plugin methods
 - [x] Add NFC permissions to iOS plist (create if needed)
-- [ ] Build the plugin using pnpm run build
+- [x] Build the plugin using pnpm run build
 - [ ] Test on Android and iOS devices
 - [ ] Publish to npm for Outsystems integration
