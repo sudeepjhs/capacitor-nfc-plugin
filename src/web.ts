@@ -17,6 +17,7 @@ export class NFCWeb extends WebPlugin implements NFCPlugin {
     throw new Error('NFC scanning is not supported in web browsers');
   }
 
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async writeTag(_options: { data: string }): Promise<{ success: boolean }> {
     throw new Error('NFC writing is not supported in web browsers');
   }

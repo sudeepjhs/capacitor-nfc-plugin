@@ -1,0 +1,5 @@
+<resources>
+    <string name="nfc_not_available">NFC not available on this device</string>
+    <string name="nfc_available">NFC is available</string>
+    <string name="nfc_tag_detected">NFC Tag Detected</string>
+</resources>
