@@ -26,14 +26,14 @@ npx cap sync
 ### echo(...)
 
 ```typescript
-echo(options: { value: string; }) => any
+echo(options: { value: string; }) => Promise<{ value: string; }>
 ```
 
 | Param         | Type                            |
 | ------------- | ------------------------------- |
 | **`options`** | <code>{ value: string; }</code> |
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;{ value: string; }&gt;</code>
 
 --------------------
 
@@ -41,10 +41,10 @@ echo(options: { value: string; }) => any
 ### isAvailable()
 
 ```typescript
-isAvailable() => any
+isAvailable() => Promise<{ available: boolean; }>
 ```
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;{ available: boolean; }&gt;</code>
 
 --------------------
 
@@ -52,10 +52,10 @@ isAvailable() => any
 ### scanTag()
 
 ```typescript
-scanTag() => any
+scanTag() => Promise<{ tagId: string; data: string; }>
 ```
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;{ tagId: string; data: string; }&gt;</code>
 
 --------------------
 
@@ -63,14 +63,14 @@ scanTag() => any
 ### writeTag(...)
 
 ```typescript
-writeTag(options: { data: string; }) => any
+writeTag(options: { data: string; }) => Promise<{ success: boolean; }>
 ```
 
 | Param         | Type                           |
 | ------------- | ------------------------------ |
 | **`options`** | <code>{ data: string; }</code> |
 
-**Returns:** <code>any</code>
+**Returns:** <code>Promise&lt;{ success: boolean; }&gt;</code>
 
 --------------------
 

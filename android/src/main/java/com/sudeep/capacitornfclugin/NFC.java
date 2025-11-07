@@ -27,11 +27,11 @@ import com.getcapacitor.PluginCall;
 
 public class NFC {
 
-    private NfcAdapter nfcAdapter;
-    private Activity activity;
-    private PendingIntent pendingIntent;
-    private IntentFilter[] intentFiltersArray;
-    private String[][] techListsArray;
+    private final NfcAdapter nfcAdapter;
+    private final Activity activity;
+    private final PendingIntent pendingIntent;
+    private final IntentFilter[] intentFiltersArray;
+    private final String[][] techListsArray;
 
     public NFC(Activity activity) {
         this.activity = activity;
